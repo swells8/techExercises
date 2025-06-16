@@ -1,19 +1,23 @@
-import React from 'react';
+"use client"
+import { useRouter } from "next/navigation"
 
 const Main = () => {
+    const router = useRouter() 
     return(
-        <section className="relative h-screen flex flex-col items-center justify-center text-black bg-cover bg-center" style={{ backgroundImage: "url('images/Argus_BackGround.jpg')" }}>
+        <section className="relative h-screen flex flex-col items-center justify-center text-black bg-cover bg-center" style={{ backgroundImage: "url('/images/Argus_BackGround.jpg')" }}>
             <div className="absolute inset-0 bg-black opacity-50 z-0"></div> 
             <div className="relative z-10 text-center px-4 ">
                 <h1 className="text-4xl md:text-6xl font-extrabold mb-4 text-white">
                     SEE EVERYTHING. <br/>
-                    MISS NOTHING.
+                    MISS NOTHING. 
                 </h1>
                 <p className=" text-sm md:text-xl max-w-md mx-auto mb-4 text-white">
                 Argus is an intelligent home surveillance system 
                 that does more than just watch — it recognizes.
                 </p>
-                <button className="bg-lime-400 text-black font-semibold px-6 py-2 rounded-full hover:bg-lime-500 transition">
+                <button className="bg-lime-400 text-black font-semibold px-6 py-2 rounded-full hover:bg-lime-500 transition" onClick = { () => {
+                    router.push("/sign-up")
+                }}>
                     Sign-Up 
                 </button>
                 <p className="mt-4 text-sm font-mono translate-x-40 -translate-y-5 text-white font-extrabold "> 

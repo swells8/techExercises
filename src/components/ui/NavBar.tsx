@@ -1,12 +1,11 @@
 
-import React from 'react';
 import { FaFacebook, FaInstagram, FaLinkedin } from "react-icons/fa";
 import Link from 'next/link';
 
 
 const NavBar = () => {
     return(
-        <nav className="border-2 w-full flex justify-between items center p-4 bg-black bg-opacity-60 text-white fixed top-0 z-50">
+        <nav className=" w-full flex justify-between items center p-5 bg-opacity-60 text-white fixed top-0 z-50">
             <div className="text-xl font-bold"> Argus Serveillance</div>
 
             <ul className="flex space-x-8">
