@@ -1,2 +1,12 @@
 node_modules
 node_modules
+
+components.json
+eslint.config.mjs
+next-env.d.ts
+next.config.ts
+package-lock.json
+package.json
+postcss.config.mjs
+tailwind.config.js
+tsconfig.json
