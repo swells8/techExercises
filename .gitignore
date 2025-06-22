@@ -1,12 +1,12 @@
 node_modules
 node_modules
 
-components.json
-eslint.config.mjs
-next-env.d.ts
-next.config.ts
-package-lock.json
-package.json
-postcss.config.mjs
-tailwind.config.js
-tsconfig.json
+argus/components.json
+argus/eslint.config.mjs
+argus/next-env.d.ts
+argus/next.config.ts
+argus/package-lock.json
+argus/package.json
+argus/postcss.config.mjs
+argus/tailwind.config.js
+argus/tsconfig.json
